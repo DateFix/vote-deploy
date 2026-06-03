@@ -14,7 +14,7 @@ spec:
         app: vote-ui
     spec:
       containers:
-      - image: docker.io/datefix/vote:latest
+      - image: docker.io/datefix/vote:d85a6f886d763d3bf2eb3010e368cc354237c30b
         name: vote-ui
         ports:
         - containerPort: 80
